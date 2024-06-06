@@ -1,0 +1,84 @@
+* {
+    /* box-sizing: border-box; */
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: azure;
+}
+
+.header {
+    width: 100%;
+    height: 40px;
+    padding: 2%;
+    font-family: 'Verdana''uchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+    background-color: hsl(150, 73%, 49%);
+    color: blue;
+}
+.links {
+    text-align: right;
+    color: #f1e8e8;
+}
+.links a {
+    display: inline;
+    font-size: 20px;
+    background-color: rgb(174, 174, 228);
+  }  
+  /*
+#aboutMe {
+    background-color: #e38989;
+}
+#work {
+    background-color: rgb(170, 219, 167);
+}
+#contactMe {
+    background-color: aqua;
+}
+#resume {
+    background-color: rgb(177, 116, 116);
+}
+*/
+.logo {
+    width: 100%;
+    height: 150px;
+    padding: 1%;
+    background-color: #4ec672;
+}
+.aboutMe {
+    width: 100%;
+    height: 100px;
+    padding: 1%;
+    background-color: hsl(150, 2%, 78%);
+}
+.work {
+    width: 100%;
+    height: 220px;
+    padding: 1%;
+    margin: 0%;
+    background-color: hsl(339, 87%, 47%);  
+}
+.contact {
+    width: 100%;
+    height: 50px;
+    padding: 1%;
+    background-color: hsl(150, 71%, 41%);
+}
+
+.container {
+    position: relative;
+}
+.logo_background {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.logo_image {
+    position:absolute;
+    top: 50px;
+    left: 50px;
+    align-content: center;
+} 
+
+

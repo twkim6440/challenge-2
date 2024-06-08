@@ -5,67 +5,59 @@
 }
 
 body {
-    background-color: azure;
+    background-color: rgb(176, 200, 245);
+    border: 1px solid rgb(114, 158, 254);
 }
 
-.header {
+header {
+    display: flex;
     width: 100%;
-    height: 40px;
-    padding: 2%;
+    height: 70px;
+    padding: 0px;
     font-family: 'Verdana''uchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: large;
-    background-color: hsl(150, 73%, 49%);
     color: blue;
 }
+.myName {
+    /* display: flex; */
+    flex: 50%;
+    margin-top: 40px; 
+    font-size: large;
+    text-align: center;
+    color:  rgb(8, 19, 76);
+
+}
+.myPhoto {
+    margin-top: 5px; 
+    justify-content: center;
+    align-items:center;
+}
 .links {
-    text-align: right;
-    color: #f1e8e8;
+    display: flex;
+    flex: 90%;
+    justify-content: flex-end;
+    margin-top: 35px; 
+    padding: 20px;
+    align-items:center;
+    font-weight: bolder;
 }
-.links a {
+ul {
+    list-style: none;
+    padding: 0;
+}
+li {
     display: inline;
-    font-size: 20px;
-    background-color: rgb(174, 174, 228);
-  }  
-  /*
-#aboutMe {
-    background-color: #e38989;
+    padding: 0px 5px;
+    text-decoration: none;
+    font-size: x-small;
+    color:  rgb(8, 19, 76);
 }
-#work {
-    background-color: rgb(170, 219, 167);
-}
-#contactMe {
-    background-color: aqua;
-}
-#resume {
-    background-color: rgb(177, 116, 116);
-}
-*/
+
 .logo {
     width: 100%;
     height: 150px;
-    padding: 1%;
+    padding: 1px;
     background-color: #4ec672;
 }
-.aboutMe {
-    width: 100%;
-    height: 100px;
-    padding: 1%;
-    background-color: hsl(150, 2%, 78%);
-}
-.work {
-    width: 100%;
-    height: 220px;
-    padding: 1%;
-    margin: 0%;
-    background-color: hsl(339, 87%, 47%);  
-}
-.contact {
-    width: 100%;
-    height: 50px;
-    padding: 1%;
-    background-color: hsl(150, 71%, 41%);
-}
-
 .container {
     position: relative;
 }
@@ -80,5 +72,171 @@ body {
     left: 50px;
     align-content: center;
 } 
+
+.aboutMe {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    padding: 0px;
+    border: 1px solid black;
+    margin: 0px;
+    font-family: 'Verdana''uchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+    color: blue;
+}
+.aboutMeTitle {
+    flex: 20%;
+    padding: 10px;
+    border: 1px solid black;
+    margin: 2px;
+    justify-content: flex-start;
+    text-align:left;
+}
+.aboutMeContent {
+    display: flex;
+    flex: 80%;
+    padding: 10px;
+    border: 1px solid black;
+}
+.work {
+    display: flex;
+    width: 100%;
+    height: 600px;
+    padding: 0px;
+    border: 1px solid black;
+    margin: 0px;
+    background-color: hsl(339, 87%, 47%);  
+    color: blue;
+
+}
+.workTitle {
+    flex: 20%;
+    padding: 20px;
+    border: 1px solid black;
+    margin: 2px;
+    justify-content: flex-start;
+    text-align:left;
+}
+.workContent {
+    flex: 80%;
+    /* display:block */
+    padding: 0px;
+    border: 1px solid black;
+    justify-content: flex-start;
+    text-align:right;
+}
+.korea {
+    flex: 100%;
+    width: 100%;
+    height: 195px;
+    padding: 0px;
+    border: 1px solid black;
+    justify-content: flex-start;
+    text-align:left;
+}
+
+.workSecondRow {
+    width: 100%;
+    height: 200px;
+    padding: 0px;
+    /* border: 1px solid black; */
+    margin: 0px;
+    font-family: 'Verdana''uchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+    display: flex;
+}
+.music {
+    /* flex: 20%; */
+    width: 50%;
+    padding: 0px;
+    border: 1px solid black;
+    justify-content: flex-start;
+    text-align:left;
+}
+.caligraphy {
+    width: 50%;
+    padding: 0px;
+    border: 1px solid black;
+    /* justify-content: flex-start; */
+    text-align:left;
+}
+
+.workThirdRow {
+    width: 100%;
+    height: 200px;
+    padding: 0px;
+    border: 1px solid black;
+    margin: 0px;
+    font-family: 'Verdana''uchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+    display: flex;
+}
+.cleopatra {
+    /* flex: 20%; */
+    width: 50%;
+    padding: 0px;
+    border: 1px solid black;
+    justify-content: flex-start;
+    text-align:left;
+}
+.bucklist {
+    width: 50%;
+    padding: 0px;
+    border: 1px solid black;
+    /* justify-content: flex-start; */
+    text-align:left;
+}
+
+.contactMe {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    padding: 0px;
+    border: 1px solid black;
+    margin: 0px;
+    font-family: 'Verdana''uchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+    color: blue;
+}
+.contactMeTitle {
+    flex: 20%;
+    padding: 10px;
+    border: 1px solid black;
+    margin: 2px;
+    justify-content: flex-start;
+    text-align:left;
+}
+.contactMeContent {
+    flex: 80%;
+    justify-content: flex-end;
+    margin-top: 35px; 
+    padding: 20px;
+    font-weight: bolder;
+}
+.contactMeList {
+    list-style: none;
+    padding: 0;
+    align-items:center;
+    justify-content: end;
+}
+li {
+    display: inline;
+    padding: 0px 5px;
+    text-decoration: none;
+    font-size: x-small;
+    color:  rgb(8, 19, 76);
+}
+
+
+.float-left {
+        float: left;
+        margin-right: 25px;
+    }
+.contact {
+    width: 100%;
+    height: 100px;
+    padding: 1%;
+    background-color: hsl(150, 71%, 41%);
+}
 
 

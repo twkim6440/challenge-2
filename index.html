@@ -17,45 +17,106 @@
 
 <body>
     <header class="header">
-        <strong>Taewoo Kim (TK)</strong>
-        <img src="./assets/images/TaewooKim-TK.png" width="20" height="20" alt="Picture of TK"/>
-        <section class="links">
-            <a id="aboutMe" href=""><strong>About Me</strong></a>
-            <a id="work" href=""><strong>Work</strong></a>
-            <a id="contactMe" href=""><strong>Contact Me</strong></a>
-            <a id="resume" href=""><strong>Resume</strong></a>
+        <section class="myName">
+            <div>
+                <h1>Taewoo Kim</h1>
+            </div>
         </section>
+        <section class="myPhoto">
+            <img src="./assets/images/TaewooKim-TK.png" width="80" height=80" alt="Picture of TK" class="tk"/>
+        </section> 
+        <nav class="links">
+            <ul>
+                <li> <a href="#" id="aboutMe">About Me</a></li>
+                <li> <a href="#" id="work">Work</a></li>
+                <li> <a href="#" id="contactMe">Contact Me</a></li>
+                <li> <a href="#" id="resume">Resume</a></li>
+            </ul>
+        </nav>
     </header>
     <br/>
     <section class="logo">
         <figure class="container">
             <img src="./assets/images/logo_background.png" width="100%" height="150" alt="Logo Background" class="logo_background"/>
-            <img src="./assets/images/logo_image.png" alt="logo_image" class="logo_image"/>
+            <img src="./assets/images/logo_image.png" alt="logo_image" class="logo_image"
+                style="position: relative; top:50px; left:50px;" />
             <!-- src="http://via.placeholder.com/300" alt="placeholder image"/> -->
         </figure>
     </section>
     <section class="aboutMe">
-
+        <section class="aboutMeTitle">
+            <h2>
+                About <br> Me
+            </h2>
+        </section>
+        <section class="aboutMeContent">
+            <p>
+                1234567890
+            </p>
+        </section>   
     </section>
     <section class="work">
-        <nav>
-            <ul>
-                <li id="korea"><a href=""><strong>Korea</strong></a></li>
-                <li id="music"><a href=""><strong>Music</strong></a></li>
-                <li id="calygraphy"><a href=""><strong>Calygraphy</strong></a></li>
-                <li id="cleopatrasalt"><a href=""><strong>Cleopatra Salt</strong></a></li>
-                <li id="bucketlist"><a href=""><strong>Bucket List</strong></a></li>
-            </ul>
-        </nav>
+        <section class="workTitle">
+            <h2>
+                Work
+            </h2>
+        </section>
+        <section class="workContent">
+            <section class="korea">
+                <img src="./assets/images/korea.png" width="50px" height="50px" class="float-right" alt="Korea" />
+                <h2>Korea</h2> <br>
+                <p>
+                    Things about Korea.
+                </p>
+            </section>
+            <section class="workSecondRow">
+                <section class="music">
+                    <img src="./assets/images/music.png" width="50px" height="50px" class="float-right" alt="music" />
+                    <h2>Music</h2> <br>
+                    <p>
+                        Things about Music.
+                    </p>
+                </section>
+                <section class="calygraphy">
+                    <img src="./assets/images/calygraphy.png" width="50px" height="50px" class="float-right" alt="calygraphy" />
+                    <h2>Calygraphy</h2> <br>
+                    <p>
+                        Things about Calygraphy.
+                    </p>
+                </section>
+            </section>
+            <section class="workThirdRow">
+                <section class="cleopatra">
+                    <img src="./assets/images/cleopatra.png" width="50px" height="50px" class="float-right" alt="cleopatra" />
+                    <h2>Cleopatra</h2> <br>
+                    <h2>Salt</h2> 
+                    <p>
+                        Things about Cleopatra Salt business.
+                    </p>
+                </section>
+                <section class="bucketlist">
+                    <img src="./assets/images/bucketlist.png" width="50px" height="50px" class="float-right" alt="bucketlist" />
+                    <h2>Bucketlist</h2>
+                    <p>
+                        Things about Bucketlist.
+                    </p>
+                </section>
+            </section>
+        </section>  
     </section>
-    <section class="contact">
-        <nav>
-            <ul>
-                <li id="cellphone"><a href=""><strong>1-571-647-4588</strong></a></li>
-                <li id="email"><a href=""><strong>bighelper6440@gmail.com</strong></a></li> 
-                <li id="github"><a href=""><strong>Github</strong></a></li>
-                <li id="twitter"><a href=""><strong>Twitter</strong></a></li>
-                <li id="spotify"><a href=""><strong>Spotify</strong></a></li>
+    <section class="contactMe">
+        <section class="contactMeTitle">
+            <h2>
+                Contact <br> Me
+            </h2>
+        </section>
+        <nav class="contactMeContent">
+            <ul class="contactMeList">
+                <li><a href="#" id="cellphone">1-571-647-4588</a></li>
+                <li><a href="#" id="email">bighelper6440@gmail.com</a></li> 
+                <li><a href="#" id="github">Github</a></li>
+                <li><a href="#" id="twitter">Twitter</a></li>
+                <li><a href="#" id="spotify">Spotify</a></li>
             </ul>
         </nav>
     </section>

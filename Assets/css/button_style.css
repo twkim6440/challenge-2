@@ -1,0 +1,60 @@
+button {
+    /* width: 170px; */
+    /* margin: 0 .5%; */
+    font-size: 90%;
+    /* color: #22058a; */
+    background-color: transparent;
+    /* border: 10px solid #21609c;  */
+    /* border: none; */
+  }
+  
+  /* The user's cursor is positioned over the element */
+  button:hover {
+    /* background-color: #70d396; */
+    font-size: 100%;
+    /* font-style: oblique; */
+    font-weight: 1000;
+  }
+  
+  /* The user is actively pressing down on the element */
+  button:active {
+    font-size: 100%;
+    color: green;
+    /* box-shadow: 0 0 10px #000 inset; */
+  }
+  
+  /* The element is currently in focus, either by tabbing to or clicking on it */
+  button:focus {
+    outline: none;
+    color: green;
+    /* border-color: #761414; */
+  }
+
+/*
+tail_button {
+
+ button {
+    width: 270px;
+    margin: 0 .5%;
+    font-size: 150%;
+    color: #13293d;
+    background-color: transparent;
+    border: none;
+  }
+  
+  button:hover {
+    background-color: #70d396;
+    color: none;
+  }
+  
+  button:active {
+    font-size: 180%;
+    box-shadow: 0 0 10px #000 inset;
+  }
+  
+  button:focus {
+    outline: none;
+    border-color: #761414;
+  }
+}
+*/

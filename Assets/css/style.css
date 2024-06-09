@@ -1,12 +1,14 @@
 * {
     /* box-sizing: border-box; */
-    padding: 0;
-    margin: 0;
+    /* padding: 0;
+    margin: 0; */
 }
 
 body {
     background-color: rgb(176, 200, 245);
-    border: 1px solid rgb(114, 158, 254);
+    border: 0px solid rgb(114, 158, 254);
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    /* padding: 22px; */
 }
 
 header {
@@ -14,17 +16,25 @@ header {
     width: 100%;
     height: 70px;
     padding: 0px;
-    font-family: 'Verdana''uchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
     color: blue;
+    box-shadow: 10px 10px 5px #c25555;
+
 }
 .myName {
     /* display: flex; */
     flex: 50%;
-    margin-top: 40px; 
-    font-size: large;
+    margin-top: 15px; 
+    font-size: 200%;
     text-align: center;
     color:  rgb(8, 19, 76);
 
+}
+h1::after {
+    font-family: Impact;
+    content: '   (TK)';
+    color: #2253e7;
+    margin-left: 5px;
 }
 .myPhoto {
     margin-top: 5px; 
@@ -32,31 +42,48 @@ header {
     align-items:center;
 }
 .links {
-    display: flex;
-    flex: 90%;
-    justify-content: flex-end;
-    margin-top: 35px; 
-    padding: 20px;
+    flex: 50%;
+    /* display: flex; */
+    /* justify-content: flex-end; */
+    /* margin-top: 25px;  */
+    /* padding: 0px; */
     align-items:center;
-    font-weight: bolder;
+    /* font-weight: bolder; */
 }
+/* nav li::before,
+nav li::after {
+  content: '\2766';
+  color: #7b1a1a;
+  padding: 0px;
+  font-family: cursive;
+}  */
+
 ul {
-    list-style: none;
-    padding: 0;
+    display: flex;
+    /* justify-content: space-between; */ */
+    /* list-style: none; */ */
+    /* align-items: center;  */ */
+    /* padding: 0px; */
+    /* margin: 0px; */
 }
 li {
-    display: inline;
-    padding: 0px 5px;
-    text-decoration: none;
-    font-size: x-small;
-    color:  rgb(8, 19, 76);
+    /* justify-content: flex-end; */
+    flex: 10%;
+    /* display: inline; */
+    /* align-items: right;   */
+    /* margin-bottom: 20px;  */
+    /* padding: 10px 15px;  */
+    /* text-decoration: none; */
+    /* font-size: x-small; */
+    /* color:  rgb(8, 19, 76); */
 }
 
 .logo {
     width: 100%;
     height: 150px;
-    padding: 1px;
-    background-color: #4ec672;
+    padding: 10px;
+    /* background-color: #4ec672; */
+    /* box-shadow: 10px 10px 5px #b33e96; */
 }
 .container {
     position: relative;
@@ -77,8 +104,9 @@ li {
     display: flex;
     width: 100%;
     height: 100px;
-    padding: 0px;
-    border: 1px solid black;
+    padding: 10px;
+    /* background-color: #4ec672; */
+    border: 0px solid black;
     margin: 0px;
     font-family: 'Verdana''uchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: large;
@@ -86,36 +114,39 @@ li {
 }
 .aboutMeTitle {
     flex: 20%;
-    padding: 10px;
-    border: 1px solid black;
-    margin: 2px;
+    padding:15px;
+    border: 0px solid black;
+    border-radius: 50px;
+    margin: 0px;
     justify-content: flex-start;
-    text-align:left;
+    text-align:right;
+    box-shadow: 10px 10px 5px #4f3eb3;
 }
 .aboutMeContent {
     display: flex;
     flex: 80%;
     padding: 10px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
+    box-shadow: 10px 10px 5px #0d5734;
 }
 .work {
     display: flex;
     width: 100%;
     height: 600px;
     padding: 0px;
-    border: 1px solid black;
+    border: 0px solid black;
     margin: 0px;
-    background-color: hsl(339, 87%, 47%);  
+    background-color: hsl(241, 42%, 78%);  
     color: blue;
-
 }
 .workTitle {
-    flex: 20%;
+    flex: 19%;
     padding: 20px;
-    border: 1px solid black;
-    margin: 2px;
+    /* border: 1px solid black; */
+    margin: 0px;
     justify-content: flex-start;
-    text-align:left;
+    text-align:right;
+    box-shadow: 10px 10px 5px #c1f3c9;
 }
 .workContent {
     flex: 80%;
@@ -124,19 +155,22 @@ li {
     border: 1px solid black;
     justify-content: flex-start;
     text-align:right;
+    box-shadow: 10px 10px 5px #6555c2;
 }
 .korea {
     flex: 100%;
-    width: 100%;
-    height: 195px;
+    width: 99%;
+    height: 200px;
     padding: 0px;
-    border: 1px solid black;
-    justify-content: flex-start;
-    text-align:left;
+    /* border: 1px solid black; */
+    justify-content: end;
+    text-align:center;
+    margin-top: 30px;
+    box-shadow: 10px 10px 5px #7fb778;
 }
 
 .workSecondRow {
-    width: 100%;
+    width: 99%;
     height: 200px;
     padding: 0px;
     /* border: 1px solid black; */
@@ -149,42 +183,55 @@ li {
     /* flex: 20%; */
     width: 50%;
     padding: 0px;
-    border: 1px solid black;
+    border: 0px solid black;
     justify-content: flex-start;
-    text-align:left;
+    text-align:center;
+    margin-top: 30px;
+    border: 1px solid black; 
+    box-shadow: 10px 10px 5px #dc7cb4;
 }
-.caligraphy {
+/*.caligraphy { */
+.calygraphy {
     width: 50%;
     padding: 0px;
     border: 1px solid black;
     /* justify-content: flex-start; */
-    text-align:left;
+    text-align:center;
+    margin-top: 30px;
+
+    box-shadow: 10px 10px 5px #dc7cb4;
 }
 
 .workThirdRow {
-    width: 100%;
+    width: 99%;
     height: 200px;
     padding: 0px;
-    border: 1px solid black;
+    border: 0px solid black;
     margin: 0px;
     font-family: 'Verdana''uchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: large;
     display: flex;
+    box-shadow: 10px 10px 5px #05052e;
+
 }
 .cleopatra {
-    /* flex: 20%; */
+    flex: 50%;
     width: 50%;
     padding: 0px;
-    border: 1px solid black;
+    border: 0px solid black;
     justify-content: flex-start;
-    text-align:left;
+    text-align:center;
+    margin-top: 30px;
+    box-shadow: 10px 10px 5px #7f1717;
 }
-.bucklist {
+.bucketlist {
     width: 50%;
     padding: 0px;
     border: 1px solid black;
-    /* justify-content: flex-start; */
-    text-align:left;
+    margin-top: 30px;
+    justify-content: flex-start;
+    text-align:center;
+    box-shadow: 10px 10px 5px #7f1717;
 }
 
 .contactMe {
@@ -192,46 +239,61 @@ li {
     width: 100%;
     height: 100px;
     padding: 0px;
-    border: 1px solid black;
+    border: 0px solid black;
     margin: 0px;
     font-family: 'Verdana''uchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: large;
     color: blue;
+    box-shadow: 10px 10px 5px #392c6b;
 }
 .contactMeTitle {
     flex: 20%;
-    padding: 10px;
-    border: 1px solid black;
+    padding: 15px;
+    border: 0px solid black;
+    border-radius: 50px;
     margin: 2px;
     justify-content: flex-start;
-    text-align:left;
+    text-align:right;
+    box-shadow: 10px 10px 5px #136721;
+
 }
 .contactMeContent {
     flex: 80%;
     justify-content: flex-end;
     margin-top: 35px; 
-    padding: 20px;
+    /* padding: 20px; */
     font-weight: bolder;
+    box-shadow: 10px 10px 5px #9e3a3c;
+
 }
 .contactMeList {
-    list-style: none;
-    padding: 0;
-    align-items:center;
-    justify-content: end;
+    display: flex;
+    justify-content: space-between;
+    /* padding: 10; */
+    /* margin: 10; */
+    /* border: 1px solid black; */
+    /* align-items:center; */
 }
 li {
-    display: inline;
-    padding: 0px 5px;
-    text-decoration: none;
-    font-size: x-small;
+    flex: 20%;
+    /* display: inline; */
+    padding: 20px 0px;
+    text-align: center;
+    font-size: 120%;
     color:  rgb(8, 19, 76);
+    /* margin-top: 30px; */
+    /* border: 1px solid black; */
 }
 
-
+.float-right {
+    float: right;
+    margin-right: 25px;
+    margin-top: 30px;
+}
 .float-left {
         float: left;
-        margin-right: 25px;
-    }
+        margin-left: 25px;
+        margin-top: 30px;    }
 .contact {
     width: 100%;
     height: 100px;
@@ -239,4 +301,81 @@ li {
     background-color: hsl(150, 71%, 41%);
 }
 
+#css-tooltip:hover::after {
+    content: "A message which appears when a cursor is positioned over an icon, image, hyperlink, or other element in a graphical user interface";
+    position: absolute;
+    left: 0px;
+    bottom: 24px;
+    min-width: 200px;
+    border: 1px #aaaaaa solid;
+    background-color: #772014;
+    padding: 12px;
+    color: #fff;
+    font-size: 80%;
+    z-index: 1;
+  }
 
+.resume {
+    padding: 10px;
+    /* background-color: #4ec672; */
+    box-shadow: 10px 10px 5px #b33e96;
+}
+
+/*
+  @media screen and (max-width: 1200px) {
+    .myName .myPhoto .links {
+      flex-direction: column;
+    }
+    image {
+        width: 100%;
+    }
+    nav {
+        width: 100%;
+        text-align: center;
+      }
+    }
+
+ *** Use an attribute selector to select all <a> elements that have an href value that ends with '.css'  *****
+a[href$='.css']::after {
+    content: '📝';
+    display: inline-block;
+    margin-left: 3px;
+  }
+*** create custom CSS variables (also called custom properties) and apply them to the root of the page, making them accessible to all other CSS ***
+:root {
+*** --dark: #13293d;
+    --light: #fff;
+    --navlink-color: #b9c6ae;
+  }
+  
+  header {
+    *** use CSS var() function to reference a variable created above ***
+    background-color: var(--dark);
+    color: var(--light);
+  }
+
+
+**** Create CSS variables at the root of the document to be used throughout the style sheet ***
+:root {
+    --white: #fff;
+    --dark-blue: #13293d;
+   *** You can use it with any value that is repeated throughout the sheet ***
+    --border-radius: 50px;
+  }
+  
+.products {
+  flex: 1;
+  background-color: var(--white);
+}
+
+.card {
+  border-radius: var(--border-radius);
+}
+
+.card > header {
+  *** This is the same as `border-radius: 50px 50px 0 0 ***
+  border-radius: var(--border-radius) var(--border-radius) 0 0;
+}
+
+
+*/  

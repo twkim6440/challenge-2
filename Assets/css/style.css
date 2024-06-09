@@ -120,22 +120,28 @@ li {
     margin: 0px;
     justify-content: flex-start;
     text-align:right;
+    font-size:x-large;
     box-shadow: 10px 10px 5px #4f3eb3;
 }
 .aboutMeContent {
-    display: flex;
-    flex: 80%;
-    padding: 10px;
+    /* display: flex; */
+    /* flex: 80%; */
+    /* padding: 10px; */
     /* border: 1px solid black; */
     box-shadow: 10px 10px 5px #0d5734;
+
+    width: 99%;
+    margin-top: 10px;
+    text-align:center;
+
 }
 .work {
     display: flex;
     width: 100%;
-    height: 600px;
-    padding: 0px;
-    border: 0px solid black;
-    margin: 0px;
+    height: 900px;
+    /* padding: 0px; */
+    /* border: 0px solid black; */
+    /* margin: 0px; */
     background-color: hsl(241, 42%, 78%);  
     color: blue;
 }
@@ -143,117 +149,177 @@ li {
     flex: 19%;
     padding: 20px;
     /* border: 1px solid black; */
-    margin: 0px;
+    /* margin: 0px; */
     justify-content: flex-start;
-    text-align:right;
+    /* text-align:right; */
+    font-size:x-large;
     box-shadow: 10px 10px 5px #c1f3c9;
 }
 .workContent {
     flex: 80%;
     /* display:block */
-    padding: 0px;
-    border: 1px solid black;
+    /* padding: 0px; */
+    /* border: 1px solid black; */
     justify-content: flex-start;
-    text-align:right;
+    /* text-align:right; */
     box-shadow: 10px 10px 5px #6555c2;
 }
 .korea {
-    flex: 100%;
+    /* flex: 100%; */
+    background-color: #86d292;    
     width: 99%;
-    height: 200px;
-    padding: 0px;
-    /* border: 1px solid black; */
-    justify-content: end;
+    height: 300px;
     text-align:center;
-    margin-top: 30px;
     box-shadow: 10px 10px 5px #7fb778;
+    /* padding: 0px; */
+    /* border: 1px solid black; */
+    /* justify-content: end; */
+}
+
+.korea h2::after {
+    font-family: Impact;
+    font-size: xx-large;
+    content: 'Korea';
+    color: #2253e7;
+}
+
+/* .picKorea {
+    box-shadow: 0 3px 3px rgba(122, 28, 28, 0.1);  
+} */
+
+.workContent .paraKorea {
+    padding-top: 50px;
 }
 
 .workSecondRow {
     width: 99%;
-    height: 200px;
-    padding: 0px;
+    height: 300px;
+    /* padding: 0px; */
     /* border: 1px solid black; */
-    margin: 0px;
-    font-family: 'Verdana''uchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: large;
+    /* margin: 0px; */
+    /* font-family: 'Verdana''uchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    /* font-size: large; */
     display: flex;
 }
 .music {
     /* flex: 20%; */
     width: 50%;
-    padding: 0px;
-    border: 0px solid black;
-    justify-content: flex-start;
+    /* padding: 0px; */
+    /* border: 0px solid black; */
+    /* justify-content: flex-start; */
     text-align:center;
-    margin-top: 30px;
-    border: 1px solid black; 
+    margin-top: 0px;
+    /* border: 1px solid black;  */
     box-shadow: 10px 10px 5px #dc7cb4;
 }
+.paraMusic {
+    padding-top: 60px;
+}
+
+.music h2::after {
+    font-family: Impact;
+    font-size: xx-large;
+    content: 'Music';
+    color: #2253e7;
+}
+
+
 /*.caligraphy { */
 .calygraphy {
     width: 50%;
-    padding: 0px;
-    border: 1px solid black;
+    /* padding: 0px; */
+    /* border: 1px solid black; */
     /* justify-content: flex-start; */
     text-align:center;
-    margin-top: 30px;
+    margin-top: 0px;
 
     box-shadow: 10px 10px 5px #dc7cb4;
+}
+.calygraphy h2::after {
+    font-family: Impact;
+    font-size: xx-large;
+    content: 'Calygraphy';
+    color: #2253e7;
+}
+.paraCalygraphy {
+    padding-top: 60px;
 }
 
 .workThirdRow {
     width: 99%;
-    height: 200px;
-    padding: 0px;
-    border: 0px solid black;
-    margin: 0px;
-    font-family: 'Verdana''uchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: large;
+    height: 300px;
+    /* padding: 0px; */
+    /* border: 0px solid black; */
+    /* margin: 0px; */
+    /* font-family: 'Verdana''uchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    /* font-size: large; */
     display: flex;
     box-shadow: 10px 10px 5px #05052e;
 
 }
 .cleopatra {
-    flex: 50%;
+    /* flex: 50%; */
     width: 50%;
-    padding: 0px;
-    border: 0px solid black;
-    justify-content: flex-start;
+    /* padding: 0px; */
+    /* border: 0px solid black; */
+    /* justify-content: flex-start; */
     text-align:center;
-    margin-top: 30px;
+    margin-top: 0px;
     box-shadow: 10px 10px 5px #7f1717;
 }
+
+.cleopatra h2::after {
+    font-family: Impact;
+    font-size: xx-large;
+    content: 'Cleopatra Salt';
+    color: #2253e7;
+}
+.paraCleopatra {
+    padding-top: 60px;
+}
+
+
 .bucketlist {
     width: 50%;
-    padding: 0px;
-    border: 1px solid black;
-    margin-top: 30px;
-    justify-content: flex-start;
+    /* padding: 0px; */
+    /* border: 1px solid black; */
+    margin-top: 0px;
+    /* justify-content: flex-start; */
     text-align:center;
     box-shadow: 10px 10px 5px #7f1717;
+}
+
+.bucketlist h2::after {
+    font-family: Impact;
+    font-size: xx-large;
+    content: 'Bucketlist';
+    color: #2253e7;
+}
+.paraBucketlist {
+    padding-top: 60px;
 }
 
 .contactMe {
     display: flex;
     width: 100%;
     height: 100px;
-    padding: 0px;
-    border: 0px solid black;
-    margin: 0px;
-    font-family: 'Verdana''uchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: large;
-    color: blue;
-    box-shadow: 10px 10px 5px #392c6b;
+    /* padding: 0px; */
+    /* border: 0px solid black; */
+    /* margin: 0px; */
+    /* font-family: 'Verdana''uchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    /* font-size: large; */
+    /* color: blue; */
+    /* box-shadow: 10px 10px 5px #392c6b; */
 }
 .contactMeTitle {
     flex: 20%;
-    padding: 15px;
+    padding: 30px;
     border: 0px solid black;
     border-radius: 50px;
-    margin: 2px;
-    justify-content: flex-start;
+    /* margin: 2px; */
+    /* justify-content: flex-start; */
     text-align:right;
+    font-size:x-large;
     box-shadow: 10px 10px 5px #136721;
 
 }
@@ -292,14 +358,16 @@ li {
 }
 .float-left {
         float: left;
-        margin-left: 25px;
-        margin-top: 30px;    }
-.contact {
-    width: 100%;
+        margin-left: 40px;
+        margin-top: 35px;  
+}
+
+/* .contact {
+    width: 100%;8
     height: 100px;
     padding: 1%;
     background-color: hsl(150, 71%, 41%);
-}
+} */
 
 #css-tooltip:hover::after {
     content: "A message which appears when a cursor is positioned over an icon, image, hyperlink, or other element in a graphical user interface";

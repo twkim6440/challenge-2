@@ -2,8 +2,10 @@ button {
     /* width: 170px; */
     /* margin: 0 .5%; */
     font-size: 90%;
+    color: white;
+    font-weight: 700;
     /* color: #22058a; */
-    background-color: transparent;
+    background-color: white;
     /* border: 10px solid #21609c;  */
     /* border: none; */
   }
@@ -12,6 +14,8 @@ button {
   button:hover {
     /* background-color: #70d396; */
     font-size: 100%;
+    color: white;
+
     /* font-style: oblique; */
     font-weight: 1000;
   }
@@ -19,7 +23,7 @@ button {
   /* The user is actively pressing down on the element */
   button:active {
     font-size: 100%;
-    color: green;
+    color: rgb(236, 244, 236);
     /* box-shadow: 0 0 10px #000 inset; */
   }
   

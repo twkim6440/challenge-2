@@ -14,38 +14,46 @@ body {
 header {
     display: flex;
     width: 100%;
-    height: 70px;
-    padding: 0px;
+    height: 100px;
+    /* padding: 0px; */
+    background-color: #213b88;
     font-family: 'Times New Roman', Times, serif, sans-serif;
-    color: blue;
-    box-shadow: 10px 10px 5px #c25555;
+    color: rgb(238, 238, 244);
+    /* box-shadow: 10px 10px 5px #c25555; */
 
+}
+.myPhoto {
+    position: absolute;
+    top: 0px;
+    left: 110px;
+    /* margin-top: 5px;  */
+    /* justify-content: left; */
+    /* align-items:left; */
 }
 .myName {
     /* display: flex; */
-    flex: 50%;
-    margin-top: 15px; 
+    flex: 40%;
+    margin-top: 30px; 
+    margin-left: 250px;
     font-size: 200%;
     text-align: center;
-    color:  rgb(8, 19, 76);
+    color:  rgb(238, 239, 243);
 
 }
 h1::after {
-    font-family: Impact;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    font-family: Verdana, Impact ;
     content: '   (TK)';
-    color: #2253e7;
+    color: #14c452;
     margin-left: 5px;
 }
-.myPhoto {
-    margin-top: 5px; 
-    justify-content: center;
-    align-items:center;
-}
 .links {
-    flex: 50%;
+    flex: 60%;
     /* display: flex; */
     /* justify-content: flex-end; */
-    /* margin-top: 25px;  */
+    margin-top: 30px; 
+    margin-left: 200px; 
+    margin-right: 100px; 
     /* padding: 0px; */
     align-items:center;
     /* font-weight: bolder; */
@@ -69,6 +77,8 @@ ul {
 li {
     /* justify-content: flex-end; */
     flex: 10%;
+    color: white;
+    
     /* display: inline; */
     /* align-items: right;   */
     /* margin-bottom: 20px;  */
@@ -81,7 +91,7 @@ li {
 .logo {
     width: 100%;
     height: 150px;
-    padding: 10px;
+    /* padding: 10px; */
     /* background-color: #4ec672; */
     /* box-shadow: 10px 10px 5px #b33e96; */
 }
@@ -104,34 +114,37 @@ li {
     display: flex;
     width: 100%;
     height: 100px;
-    padding: 10px;
+    /* padding: 0px; */
     /* background-color: #4ec672; */
-    border: 0px solid black;
-    margin: 0px;
-    font-family: 'Verdana''uchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: large;
+    /* border: 0px solid black; */
+    /* margin: 0px; */
+    /* font-family: 'Verdana''uchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    /* font-size: large; */
     color: blue;
 }
 .aboutMeTitle {
     flex: 20%;
-    padding:15px;
-    border: 0px solid black;
-    border-radius: 50px;
-    margin: 0px;
+    padding:30px;
+    padding-left: 50px;
+    /* border: 0px solid black; */
+    /* border-radius: 50px; */
+    /* margin: 0px; */
     justify-content: flex-start;
+    background-color: #2a2fcbdc;
+    color:#e5eee6;
     text-align:right;
     font-size:x-large;
-    box-shadow: 10px 10px 5px #4f3eb3;
+    /* box-shadow: 10px 10px 5px #4f3eb3; */
 }
 .aboutMeContent {
     /* display: flex; */
-    /* flex: 80%; */
+    flex: 80%;
     /* padding: 10px; */
     /* border: 1px solid black; */
-    box-shadow: 10px 10px 5px #0d5734;
-
-    width: 99%;
-    margin-top: 10px;
+    /* box-shadow: 10px 10px 5px #0d5734; */
+    /* width: 100%; */
+    color: black;
+    margin-top: 20px;
     text-align:center;
 
 }
@@ -142,18 +155,20 @@ li {
     /* padding: 0px; */
     /* border: 0px solid black; */
     /* margin: 0px; */
-    background-color: hsl(241, 42%, 78%);  
+    background-color: hsl(241, 46%, 50%);  
     color: blue;
 }
 .workTitle {
-    flex: 19%;
-    padding: 20px;
+    flex: 20%;
+    padding: 30px;
+    /* border-radius: 50px; */
     /* border: 1px solid black; */
     /* margin: 0px; */
     justify-content: flex-start;
-    /* text-align:right; */
+    color: white;
+    text-align:right;
     font-size:x-large;
-    box-shadow: 10px 10px 5px #c1f3c9;
+    /* box-shadow: 10px 10px 5px #1e4c26; */
 }
 .workContent {
     flex: 80%;
@@ -162,15 +177,15 @@ li {
     /* border: 1px solid black; */
     justify-content: flex-start;
     /* text-align:right; */
-    box-shadow: 10px 10px 5px #6555c2;
+    /* box-shadow: 10px 10px 5px #6555c2; */
 }
 .korea {
     /* flex: 100%; */
-    background-color: #86d292;    
-    width: 99%;
+    background-color: #8acf94;    
+    width: 100%;
     height: 300px;
     text-align:center;
-    box-shadow: 10px 10px 5px #7fb778;
+    /* box-shadow: 10px 10px 5px #7fb778; */
     /* padding: 0px; */
     /* border: 1px solid black; */
     /* justify-content: end; */
@@ -180,7 +195,7 @@ li {
     font-family: Impact;
     font-size: xx-large;
     content: 'Korea';
-    color: #2253e7;
+    color: #243e8b;
 }
 
 /* .picKorea {
@@ -191,8 +206,12 @@ li {
     padding-top: 50px;
 }
 
+.korea p {
+    color: black;
+}
+
 .workSecondRow {
-    width: 99%;
+    width: 100%;
     height: 300px;
     /* padding: 0px; */
     /* border: 1px solid black; */
@@ -200,6 +219,7 @@ li {
     /* font-family: 'Verdana''uchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
     /* font-size: large; */
     display: flex;
+    background-color: #8d9bf8;
 }
 .music {
     /* flex: 20%; */
@@ -210,7 +230,7 @@ li {
     text-align:center;
     margin-top: 0px;
     /* border: 1px solid black;  */
-    box-shadow: 10px 10px 5px #dc7cb4;
+    /* box-shadow: 10px 10px 5px #dc7cb4; */
 }
 .paraMusic {
     padding-top: 60px;
@@ -220,7 +240,10 @@ li {
     font-family: Impact;
     font-size: xx-large;
     content: 'Music';
-    color: #2253e7;
+    color: #243e8b;
+}
+.music p {
+    color: black;
 }
 
 
@@ -232,21 +255,25 @@ li {
     /* justify-content: flex-start; */
     text-align:center;
     margin-top: 0px;
+    background-color: #7979f3;
 
-    box-shadow: 10px 10px 5px #dc7cb4;
+    /* box-shadow: 10px 10px 5px #dc7cb4; */
 }
 .calygraphy h2::after {
     font-family: Impact;
     font-size: xx-large;
     content: 'Calygraphy';
-    color: #2253e7;
+    color: #243e8b;
 }
 .paraCalygraphy {
     padding-top: 60px;
 }
+.calygraphy p {
+    color: black;
+}
 
 .workThirdRow {
-    width: 99%;
+    width: 100%;
     height: 300px;
     /* padding: 0px; */
     /* border: 0px solid black; */
@@ -254,7 +281,8 @@ li {
     /* font-family: 'Verdana''uchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
     /* font-size: large; */
     display: flex;
-    box-shadow: 10px 10px 5px #05052e;
+    /* box-shadow: 10px 10px 5px #05052e; */
+    background-color: #d79991;
 
 }
 .cleopatra {
@@ -265,19 +293,21 @@ li {
     /* justify-content: flex-start; */
     text-align:center;
     margin-top: 0px;
-    box-shadow: 10px 10px 5px #7f1717;
+    /* box-shadow: 10px 10px 5px #7f1717; */
 }
 
 .cleopatra h2::after {
     font-family: Impact;
     font-size: xx-large;
     content: 'Cleopatra Salt';
-    color: #2253e7;
+    color: #243e8b;
 }
 .paraCleopatra {
     padding-top: 60px;
 }
-
+.cleopatra p {
+    color: black;
+}
 
 .bucketlist {
     width: 50%;
@@ -286,19 +316,22 @@ li {
     margin-top: 0px;
     /* justify-content: flex-start; */
     text-align:center;
-    box-shadow: 10px 10px 5px #7f1717;
+    background-color: #dc5b4a;
+    /* box-shadow: 10px 10px 5px #7f1717; */
 }
 
 .bucketlist h2::after {
     font-family: Impact;
     font-size: xx-large;
     content: 'Bucketlist';
-    color: #2253e7;
+    color: #243e8b;
 }
 .paraBucketlist {
     padding-top: 60px;
 }
-
+.bucketlist p {
+    color: black;
+}
 .contactMe {
     display: flex;
     width: 100%;
@@ -313,14 +346,16 @@ li {
 }
 .contactMeTitle {
     flex: 20%;
-    padding: 30px;
-    border: 0px solid black;
-    border-radius: 50px;
+    padding: 25px;
+    /* border: 0px solid black; */
+    /* border-radius: 50px; */
+    background-color: #2d458d;
+    color:#e5eee6;
     /* margin: 2px; */
     /* justify-content: flex-start; */
     text-align:right;
     font-size:x-large;
-    box-shadow: 10px 10px 5px #136721;
+    /* box-shadow: 10px 10px 5px #136721; */
 
 }
 .contactMeContent {
@@ -329,7 +364,7 @@ li {
     margin-top: 35px; 
     /* padding: 20px; */
     font-weight: bolder;
-    box-shadow: 10px 10px 5px #9e3a3c;
+    /* box-shadow: 10px 10px 5px #9e3a3c; */
 
 }
 .contactMeList {
@@ -343,7 +378,7 @@ li {
 li {
     flex: 20%;
     /* display: inline; */
-    padding: 20px 0px;
+    padding: 10px 0px;
     text-align: center;
     font-size: 120%;
     color:  rgb(8, 19, 76);
@@ -384,9 +419,10 @@ li {
   }
 
 .resume {
-    padding: 10px;
-    /* background-color: #4ec672; */
-    box-shadow: 10px 10px 5px #b33e96;
+
+    /* padding: 10px; */
+    background-color: #4ec672;
+    /* box-shadow: 10px 10px 5px #b33e96; */
 }
 
 /*

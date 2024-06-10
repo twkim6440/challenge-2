@@ -81,6 +81,64 @@ h1::after {
     color: rgb(68, 224, 151);
   }
   
+.work {
+    background-color: lightblue;
+    /* padding: 20px; */
+}
+#workPointer {
+    /* border: 1px solid gray; */
+}
+.contactMe {
+    background-color: lightblue;
+    /* padding: 20px; */
+}
+#contactMePointer {
+    /* border: 1px solid gray; */
+}
+.resume {
+    background-color: lightblue;
+    /* padding: 20px; */
+}
+#resumePointer {
+    /* border: 1px solid gray; */
+}
+.aboutMe {
+    background-color: lightblue;
+    /* padding: 20px; */
+}
+#aboutMePointer {
+    /* border: 1px solid gray; */
+}
+
+
+
+/* *** Testing ***  */
+.code-card:hover
+{
+  box-shadow: inset 0px 0px 8px var(--heliotrope), 0 0 15px var(--heliotrope);
+}
+
+.code-card pre {
+  /* set styles to make it so code wraps in <pre> instead of overflowing */
+  white-space: pre-wrap;
+  overflow: auto;
+  tab-size: 4;
+  padding: 1.2rem 1rem;
+  color: var(--gin);
+  border-radius: 8px;
+  /* use linear-gradient() function to create a fading background  */
+  background-image: linear-gradient(
+    rgba(102, 236, 144, 0.3) 0%,
+    rgba(232, 102, 236, 0.6) 100%
+  );
+  display: flex;
+  align-items: center;
+}
+
+
+
+
+
 /* .topnav {
     flex: 50%;
     margin-top: 60px; 
@@ -187,7 +245,7 @@ li {
     flex-wrap: wrap;
     align-items: stretch;
     width: 100%;
-    height: 900px;
+    height: auto;
     background-color: hsl(241, 46%, 50%);  
     color: blue;
 }
@@ -206,13 +264,13 @@ li {
 
 .korea {
     display: flex;
-    background-color: #8acf94;    
+    background-color: #83b28a;    
     width: 100%;
     height: 300px;
     text-align:center;
 }
 .pictureKorea {
-    padding-left: 40px;
+    padding-left: 5px;
     flex: 30%;
 }
 .paraKorea {
@@ -253,7 +311,7 @@ li {
     /* margin-top: 0px; */
 }
 .pictureMusic {
-    padding-left: 40px;
+    padding-left: 5px;
     /* flex: 30%; */
 
 }
@@ -271,7 +329,7 @@ li {
     color: #243e8b;
 }
 .paraMusicContents {
-    padding: 0px;
+    /* padding: 30px; */
     color: black;
 }
 
@@ -282,7 +340,7 @@ li {
     background-color: #7979f3;
 }
 .pictureCalygraphy {
-    padding-left: 40px;
+    padding-left: 5px;
     /* flex: 30%; */
 }
 .paraCalygraphy {
@@ -300,15 +358,17 @@ li {
 .paraCalygraphyContents {
     padding-top: 0px;
 }
-.calygraphy p {
+/* .calygraphy p {
     color: black;
+    padding: 30px;
+    padding-left: 30px;
 }
-
+ */
 
 
 .workThirdRow {
     width: 100%;
-    height: 300px;
+    /* height: 300px; */
     display: flex;
     background-color: #d79991;
 }
@@ -318,7 +378,7 @@ li {
     text-align:center;
 }
 .pictureCleopatra {
-    padding-left: 40px;
+    padding-left: 5px;
     /* flex: 30%; */
 }
 .paraCleopatra {
@@ -347,7 +407,7 @@ li {
     background-color: #dc5b4a;
 }
 .pictureBucketlist {
-    padding-left: 40px;
+    padding-left: 5px;
     /* flex: 30%; */
 }
 .paraBucketlist {
@@ -403,7 +463,7 @@ li {
     color: #11063e;
     align-content:center;
     /* text-align: center; */
-    padding: 14px 50px;
+    padding: 10px 25px;
     /* text-decoration: none; */
     font-size: x-large;
   }
@@ -430,7 +490,7 @@ li {
     }
   
     .aboutMe {
-        flex;
+        /* flex; */
         /* width: 100%; */
         height: 100%;
     }
@@ -449,12 +509,13 @@ li {
 
     .work {
         display: flex;
-        height: 1500px;
+        /* height: auto; */
         /* width:100%; */
         /* height: 100%; */
     }
     .workTitle {
         flex: 20%;
+        /* height: auto; */
         text-align:center;
     }
     .workContent {
@@ -471,7 +532,7 @@ li {
         display: flex;
         flex-wrap: wrap;
         align-items: stretch;
-        height: 45%
+        height: 35%
     }
     .pictureKorea {
         /* flex; */
@@ -534,14 +595,15 @@ li {
 
 
     .workThirdRow {
-        display: flex;
-        flex-wrap: wrap;
+        display: block;
+        /* flex-wrap: wrap; */
         align-items: stretch;
         height: 40%;
     }
     .cleopatra {
-        flex: 50%;
-        height: 50%;
+        /* flex: 50%; */
+        /* height: 50%; */
+        width: 100%;
         display: flex;
         text-align: center;
     }
@@ -562,7 +624,8 @@ li {
     }
 
     .bucketlist {
-        flex: 50%;
+        /* flex: 50%; */
+        width: 100%;
         display: flex;
         text-align: center;
     }

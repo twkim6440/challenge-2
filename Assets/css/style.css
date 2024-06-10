@@ -119,6 +119,7 @@ li {
 }
 .logo_background {
     position: absolute;
+    opacity: 0.8;
 }
 .logo_image {
     position:absolute;
@@ -149,26 +150,26 @@ li {
     display: flex;
     color: black;
     text-align:left;
+    font-size:large;
 }
 .aboutMeContentLeft {
     flex: 50%;
-    padding-top: 10px;
+    padding-top: 0px;
     padding-left: 50px;
     background-color: #9abef0dc;
 }
 .aboutMeContentRight {
     flex: 50%;
-    padding-top: 10px;
+    padding-top: 0px;
     padding-left: 50px;
     background-color: #8daedadc;
 }
 .aboutMeContent ol{
     padding-top: 10px;
     list-style-type: disc;
-}
-.aboutMeContent ol {
     text-align: left;
 }
+
 .aboutMeContent li {
     text-align: left;
     color: rgb(14, 8, 47);

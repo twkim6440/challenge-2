@@ -1,107 +1,77 @@
-* {
-    /* box-sizing: border-box; */
-    /* padding: 0;
-    margin: 0; */
-}
-
 body {
     background-color: rgb(176, 200, 245);
-    border: 0px solid rgb(114, 158, 254);
     font-family: 'Times New Roman', Times, serif, sans-serif;
-    /* padding: 22px; */
 }
 
 header {
     display: flex;
     width: 100%;
-    height: 100px;
-    /* padding: 0px; */
+    height: 150px;
     background-color: #213b88;
     font-family: 'Times New Roman', Times, serif, sans-serif;
     color: rgb(238, 238, 244);
-    /* box-shadow: 10px 10px 5px #c25555; */
-
 }
+
 .myPhoto {
     position: absolute;
     top: 0px;
-    left: 110px;
-    /* margin-top: 5px;  */
-    /* justify-content: left; */
-    /* align-items:left; */
+    left: 90px;
 }
+
 .myName {
-    /* display: flex; */
-    flex: 40%;
-    margin-top: 30px; 
+    flex: 50%;
+    margin-top: 60px; 
     margin-left: 250px;
     font-size: 200%;
     text-align: center;
     color:  rgb(238, 239, 243);
-
 }
 h1::after {
-    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
     font-family: Verdana, Impact ;
     content: '   (TK)';
     color: #14c452;
     margin-left: 5px;
 }
+
+@media screen and (max-width: 500px) {
+    /* nav {
+        order: 2;
+    } */
+     li {
+      flex-direction: column;
+    }
+}
+
+
+
 .links {
-    flex: 60%;
-    /* display: flex; */
-    /* justify-content: flex-end; */
-    margin-top: 30px; 
+    flex: 50%;
+    margin-top: 60px; 
     margin-left: 200px; 
     margin-right: 100px; 
-    /* padding: 0px; */
     align-items:center;
-    /* font-weight: bolder; */
 }
-/* nav li::before,
-nav li::after {
-  content: '\2766';
-  color: #7b1a1a;
-  padding: 0px;
-  font-family: cursive;
-}  */
-
 ul {
     display: flex;
-    /* justify-content: space-between; */ */
-    /* list-style: none; */ */
-    /* align-items: center;  */ */
-    /* padding: 0px; */
-    /* margin: 0px; */
 }
 li {
-    /* justify-content: flex-end; */
     flex: 10%;
     color: white;
-    
-    /* display: inline; */
-    /* align-items: right;   */
-    /* margin-bottom: 20px;  */
-    /* padding: 10px 15px;  */
-    /* text-decoration: none; */
-    /* font-size: x-small; */
-    /* color:  rgb(8, 19, 76); */
+}
+.header .links button::before, .links button::after {
+    content: '.   .   .';
+    color: white;
 }
 
 .logo {
     width: 100%;
     height: 150px;
-    /* padding: 10px; */
-    /* background-color: #4ec672; */
-    /* box-shadow: 10px 10px 5px #b33e96; */
 }
 .container {
     position: relative;
 }
 .logo_background {
     position: absolute;
-    top: 0px;
-    left: 0px;
 }
 .logo_image {
     position:absolute;
@@ -113,99 +83,85 @@ li {
 .aboutMe {
     display: flex;
     width: 100%;
-    height: 100px;
-    /* padding: 0px; */
-    /* background-color: #4ec672; */
-    /* border: 0px solid black; */
-    /* margin: 0px; */
-    /* font-family: 'Verdana''uchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
-    /* font-size: large; */
+    height: 160px;
     color: blue;
 }
 .aboutMeTitle {
     flex: 20%;
     padding:30px;
     padding-left: 50px;
-    /* border: 0px solid black; */
-    /* border-radius: 50px; */
-    /* margin: 0px; */
     justify-content: flex-start;
     background-color: #2a2fcbdc;
     color:#e5eee6;
     text-align:right;
     font-size:x-large;
-    /* box-shadow: 10px 10px 5px #4f3eb3; */
 }
 .aboutMeContent {
-    /* display: flex; */
     flex: 80%;
-    /* padding: 10px; */
-    /* border: 1px solid black; */
-    /* box-shadow: 10px 10px 5px #0d5734; */
-    /* width: 100%; */
+    width: 100%;
+    display: flex;
     color: black;
-    margin-top: 20px;
-    text-align:center;
-
+    text-align:left;
 }
+.aboutMeContentLeft {
+    flex: 50%;
+    padding-top: 10px;
+    padding-left: 50px;
+    background-color: #9abef0dc;
+}
+.aboutMeContentRight {
+    flex: 50%;
+    padding-top: 10px;
+    padding-left: 50px;
+    background-color: #8daedadc;
+}
+.aboutMeContent ol{
+    padding-top: 10px;
+    list-style-type: disc;
+}
+.aboutMeContent ol {
+    text-align: left;
+}
+.aboutMeContent li {
+    text-align: left;
+    color: rgb(14, 8, 47);
+}
+
 .work {
     display: flex;
     width: 100%;
     height: 900px;
-    /* padding: 0px; */
-    /* border: 0px solid black; */
-    /* margin: 0px; */
     background-color: hsl(241, 46%, 50%);  
     color: blue;
 }
 .workTitle {
     flex: 20%;
     padding: 30px;
-    /* border-radius: 50px; */
-    /* border: 1px solid black; */
-    /* margin: 0px; */
     justify-content: flex-start;
     color: white;
     text-align:right;
     font-size:x-large;
-    /* box-shadow: 10px 10px 5px #1e4c26; */
 }
 .workContent {
     flex: 80%;
-    /* display:block */
-    /* padding: 0px; */
-    /* border: 1px solid black; */
     justify-content: flex-start;
-    /* text-align:right; */
-    /* box-shadow: 10px 10px 5px #6555c2; */
 }
+
 .korea {
-    /* flex: 100%; */
     background-color: #8acf94;    
     width: 100%;
     height: 300px;
     text-align:center;
-    /* box-shadow: 10px 10px 5px #7fb778; */
-    /* padding: 0px; */
-    /* border: 1px solid black; */
-    /* justify-content: end; */
 }
-
 .korea h2::after {
     font-family: Impact;
     font-size: xx-large;
     content: 'Korea';
     color: #243e8b;
 }
-
-/* .picKorea {
-    box-shadow: 0 3px 3px rgba(122, 28, 28, 0.1);  
-} */
-
 .workContent .paraKorea {
     padding-top: 50px;
 }
-
 .korea p {
     color: black;
 }
@@ -213,29 +169,18 @@ li {
 .workSecondRow {
     width: 100%;
     height: 300px;
-    /* padding: 0px; */
-    /* border: 1px solid black; */
-    /* margin: 0px; */
-    /* font-family: 'Verdana''uchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
-    /* font-size: large; */
     display: flex;
     background-color: #8d9bf8;
 }
+
 .music {
-    /* flex: 20%; */
     width: 50%;
-    /* padding: 0px; */
-    /* border: 0px solid black; */
-    /* justify-content: flex-start; */
     text-align:center;
     margin-top: 0px;
-    /* border: 1px solid black;  */
-    /* box-shadow: 10px 10px 5px #dc7cb4; */
 }
 .paraMusic {
     padding-top: 60px;
 }
-
 .music h2::after {
     font-family: Impact;
     font-size: xx-large;
@@ -246,18 +191,10 @@ li {
     color: black;
 }
 
-
-/*.caligraphy { */
 .calygraphy {
     width: 50%;
-    /* padding: 0px; */
-    /* border: 1px solid black; */
-    /* justify-content: flex-start; */
     text-align:center;
-    margin-top: 0px;
     background-color: #7979f3;
-
-    /* box-shadow: 10px 10px 5px #dc7cb4; */
 }
 .calygraphy h2::after {
     font-family: Impact;
@@ -275,27 +212,14 @@ li {
 .workThirdRow {
     width: 100%;
     height: 300px;
-    /* padding: 0px; */
-    /* border: 0px solid black; */
-    /* margin: 0px; */
-    /* font-family: 'Verdana''uchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
-    /* font-size: large; */
     display: flex;
-    /* box-shadow: 10px 10px 5px #05052e; */
     background-color: #d79991;
-
 }
+
 .cleopatra {
-    /* flex: 50%; */
     width: 50%;
-    /* padding: 0px; */
-    /* border: 0px solid black; */
-    /* justify-content: flex-start; */
     text-align:center;
-    margin-top: 0px;
-    /* box-shadow: 10px 10px 5px #7f1717; */
 }
-
 .cleopatra h2::after {
     font-family: Impact;
     font-size: xx-large;
@@ -311,15 +235,10 @@ li {
 
 .bucketlist {
     width: 50%;
-    /* padding: 0px; */
-    /* border: 1px solid black; */
     margin-top: 0px;
-    /* justify-content: flex-start; */
     text-align:center;
     background-color: #dc5b4a;
-    /* box-shadow: 10px 10px 5px #7f1717; */
 }
-
 .bucketlist h2::after {
     font-family: Impact;
     font-size: xx-large;
@@ -332,58 +251,36 @@ li {
 .bucketlist p {
     color: black;
 }
+
 .contactMe {
     display: flex;
     width: 100%;
     height: 100px;
-    /* padding: 0px; */
-    /* border: 0px solid black; */
-    /* margin: 0px; */
-    /* font-family: 'Verdana''uchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
-    /* font-size: large; */
-    /* color: blue; */
-    /* box-shadow: 10px 10px 5px #392c6b; */
 }
 .contactMeTitle {
     flex: 20%;
     padding: 25px;
-    /* border: 0px solid black; */
-    /* border-radius: 50px; */
     background-color: #2d458d;
     color:#e5eee6;
-    /* margin: 2px; */
-    /* justify-content: flex-start; */
     text-align:right;
     font-size:x-large;
-    /* box-shadow: 10px 10px 5px #136721; */
-
 }
 .contactMeContent {
     flex: 80%;
     justify-content: flex-end;
     margin-top: 35px; 
-    /* padding: 20px; */
     font-weight: bolder;
-    /* box-shadow: 10px 10px 5px #9e3a3c; */
-
 }
 .contactMeList {
     display: flex;
     justify-content: space-between;
-    /* padding: 10; */
-    /* margin: 10; */
-    /* border: 1px solid black; */
-    /* align-items:center; */
 }
 li {
     flex: 20%;
-    /* display: inline; */
     padding: 10px 0px;
     text-align: center;
     font-size: 120%;
     color:  rgb(8, 19, 76);
-    /* margin-top: 30px; */
-    /* border: 1px solid black; */
 }
 
 .float-right {
@@ -396,13 +293,6 @@ li {
         margin-left: 40px;
         margin-top: 35px;  
 }
-
-/* .contact {
-    width: 100%;8
-    height: 100px;
-    padding: 1%;
-    background-color: hsl(150, 71%, 41%);
-} */
 
 #css-tooltip:hover::after {
     content: "A message which appears when a cursor is positioned over an icon, image, hyperlink, or other element in a graphical user interface";
@@ -419,26 +309,10 @@ li {
   }
 
 .resume {
-
-    /* padding: 10px; */
     background-color: #4ec672;
-    /* box-shadow: 10px 10px 5px #b33e96; */
 }
 
 /*
-  @media screen and (max-width: 1200px) {
-    .myName .myPhoto .links {
-      flex-direction: column;
-    }
-    image {
-        width: 100%;
-    }
-    nav {
-        width: 100%;
-        text-align: center;
-      }
-    }
-
  *** Use an attribute selector to select all <a> elements that have an href value that ends with '.css'  *****
 a[href$='.css']::after {
     content: '📝';
@@ -457,7 +331,6 @@ a[href$='.css']::after {
     background-color: var(--dark);
     color: var(--light);
   }
-
 
 **** Create CSS variables at the root of the document to be used throughout the style sheet ***
 :root {
@@ -480,6 +353,5 @@ a[href$='.css']::after {
   *** This is the same as `border-radius: 50px 50px 0 0 ***
   border-radius: var(--border-radius) var(--border-radius) 0 0;
 }
-
 
 */  

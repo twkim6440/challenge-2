@@ -11,100 +11,133 @@
 <head>
     <title>Big Helper USA</title>    
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./assets/css/reset.css"/>
     <link rel="stylesheet" href="./assets/css/style.css"/>
+    <!-- <link rel="stylesheet" href="./assets/css/button_style.css"/> -->
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
 
 <body>
     <header class="header">
-        <section class="myName">
-            <div>
-                <h1>Taewoo Kim</h1>
-            </div>
-        </section>
-        <section class="myPhoto">
-            <img src="./assets/images/TaewooKim-TK.png" width="80" height=80" alt="Picture of TK" class="tk"/>
-        </section> 
-        <nav class="links">
-            <ul>
-                <li> <a href="#" id="aboutMe">About Me</a></li>
-                <li> <a href="#" id="work">Work</a></li>
-                <li> <a href="#" id="contactMe">Contact Me</a></li>
-                <li> <a href="#" id="resume">Resume</a></li>
-            </ul>
+        <aside class="headerAside">
+            <section class="myPhoto">
+                <img src="./assets/images/TaewooKim-TK.png" width="150" height="150" alt="Picture of TK" class="tk"/>
+            </section> 
+            <section class="myName">
+                <div>
+                    <h1>Taewoo Kim</h1>
+                </div>
+            </section>
+        </aside>
+        <nav class="topnav">
+            <!-- <ul> -->
+                <a href="#aboutMe" id="aboutMe">About Me</a> 
+                <a href="#work" id="work">Work</a> 
+                <a href="#contactMe" id="contactMe">Contact Me</a> 
+                <a href="#" id="resume">Resume</a> 
+            <!-- </ul> -->
         </nav>
+        <!-- <nav class="links">
+            <ul>
+                <li> <button> <a href="#aboutMe" id="aboutMe">About Me</a></button></li> 
+                <li> <button> <a href="#work" id="work">Work</a></button></li> 
+                <li> <button> <a href="#contactMe" id="contactMe">Contact Me</a></button></li> 
+                <li> <button> <a href="#" id="resume">Resume</a></button></li> 
+            </ul>
+        </nav> -->
     </header>
-    <br/>
+    <!-- <br/> -->
     <section class="logo">
         <figure class="container">
             <img src="./assets/images/logo_background.png" width="100%" height="150" alt="Logo Background" class="logo_background"/>
-            <img src="./assets/images/logo_image.png" alt="logo_image" class="logo_image"
+            <img src="./assets/images/BigHelperUSA_image.png" width="230px" height="50px" alt="logo_image" class="logo_image"
                 style="position: relative; top:50px; left:50px;" />
             <!-- src="http://via.placeholder.com/300" alt="placeholder image"/> -->
         </figure>
     </section>
-    <section class="aboutMe">
-        <section class="aboutMeTitle">
-            <h2>
-                About <br> Me
-            </h2>
+    <section class="contents">
+        <section class="aboutMe">
+            <section class="aboutMeTitle">
+                <h2>
+                    About <br> Me
+                </h2>
+            </section>
+            <section class="aboutMeContent">
+                <section class="aboutMeContentLeft">
+                    <ol>
+                        <li>B.S. from Korea Military Academy</li>
+                        <li>M.S. from U.S. Naval Postgraduate School</li>
+                        <li>Ph.D from University of Florida</li>
+                    </ul>
+                </section>
+                <section class="aboutMeContentRight">
+                    <ol>
+                        <li>Served in ROK Army for 29 yrs</li>
+                        <li>Worked at Boeing/Boeing Korea for 11 yrs</li>
+                        <li>Enjoy playing musical instruments and golf</li>
+                    </ul>
+                </section>
+            </section>   
         </section>
-        <section class="aboutMeContent">
-            <p>
-                1234567890
-            </p>
-        </section>   
-    </section>
-    <section class="work">
-        <section class="workTitle">
-            <h2>
-                Work
-            </h2>
+
+        <section class="work">
+            <section class="workTitle">
+                <h2>
+                    Work
+                </h2>
+            </section>
+            <section class="workContent">
+                <section class="korea">
+                    <img src="./assets/images/korea.png" width="370px" height="240px" class="float-left" alt="Korea" />
+                    
+                    <h2 class="paraKorea"></h2> <br>
+                    <p>
+                        Things about Korea. <br>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis dicta impedit blanditiis cupiditate accusamus quae praesentium beatae laborum architecto cum pariatur reiciendis, esse corrupti facere minus. Esse sequi in atque.
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis dicta impedit blanditiis cupiditate accusamus quae praesentium beatae laborum architecto cum pariatur reiciendis,
+                    </p>
+                </section>
+                <section class="workSecondRow">
+                    <section class="music">
+                        <img src="./assets/images/music.png" width="240px" height="240px" class="float-left" alt="music" />
+                        <h2 class="paraMusic"></h2> <br>
+                        <p>
+                            Things about Music.<br>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis dicta impedit blanditiis cupiditate accusamus quae praesentium beatae laborum architecto cum pariatur reiciendis, esse corrupti facere minus. Esse sequi in atque.
+                        </p>
+                    </section>
+                    <section class="calygraphy">
+                        <img src="./assets/images/calygraphy.png" width="240px" height="240px" class="float-left" alt="calygraphy" />
+                        <h2 class="paraCalygraphy"></h2> <br>
+                        <p>
+                            Things about Calygraphy.<br>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis dicta impedit blanditiis cupiditate accusamus quae praesentium beatae laborum architecto cum pariatur reiciendis, esse corrupti facere minus. Esse sequi in atque.
+                        </p>
+                    </section>
+                </section>
+                <section class="workThirdRow">
+                    <section class="cleopatra">
+                        <img src="./assets/images/cleopatraSalt.jpg" width="240px" height="240px" class="float-left" alt="cleopatra" />
+                        <h2 class="paraCleopatra"></h2> <br>
+                        <p>
+                            Things about Cleopatra Salt business.<br>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis dicta impedit blanditiis cupiditate accusamus quae praesentium beatae laborum architecto cum pariatur reiciendis, esse corrupti facere minus. Esse sequi in atque.
+                        </p>
+                    </section>
+                    <section class="bucketlist">
+                        <img src="./assets/images/bucketlist.png" width="240px" height="240px" class="float-left" alt="cleopatra" />
+                        <h2 class="paraBucketlist"></h2> <br>
+                        <p>
+                            Things about Bucketlist.<br>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis dicta impedit blanditiis cupiditate accusamus quae praesentium beatae laborum architecto cum pariatur reiciendis, esse corrupti facere minus. Esse sequi in atque.
+                        </p>
+                    </section>
+                </section>
+            </section>  
         </section>
-        <section class="workContent">
-            <section class="korea">
-                <img src="./assets/images/korea.png" width="50px" height="50px" class="float-right" alt="Korea" />
-                <h2>Korea</h2> <br>
-                <p>
-                    Things about Korea.
-                </p>
-            </section>
-            <section class="workSecondRow">
-                <section class="music">
-                    <img src="./assets/images/music.png" width="50px" height="50px" class="float-right" alt="music" />
-                    <h2>Music</h2> <br>
-                    <p>
-                        Things about Music.
-                    </p>
-                </section>
-                <section class="calygraphy">
-                    <img src="./assets/images/calygraphy.png" width="50px" height="50px" class="float-right" alt="calygraphy" />
-                    <h2>Calygraphy</h2> <br>
-                    <p>
-                        Things about Calygraphy.
-                    </p>
-                </section>
-            </section>
-            <section class="workThirdRow">
-                <section class="cleopatra">
-                    <img src="./assets/images/cleopatra.png" width="50px" height="50px" class="float-right" alt="cleopatra" />
-                    <h2>Cleopatra</h2> <br>
-                    <h2>Salt</h2> 
-                    <p>
-                        Things about Cleopatra Salt business.
-                    </p>
-                </section>
-                <section class="bucketlist">
-                    <img src="./assets/images/bucketlist.png" width="50px" height="50px" class="float-right" alt="bucketlist" />
-                    <h2>Bucketlist</h2>
-                    <p>
-                        Things about Bucketlist.
-                    </p>
-                </section>
-            </section>
-        </section>  
     </section>
-    <section class="contactMe">
+    <section class="contactMe" id="contactMe">
         <section class="contactMeTitle">
             <h2>
                 Contact <br> Me
@@ -112,14 +145,20 @@
         </section>
         <nav class="contactMeContent">
             <ul class="contactMeList">
-                <li><a href="#" id="cellphone">1-571-647-4588</a></li>
-                <li><a href="#" id="email">bighelper6440@gmail.com</a></li> 
-                <li><a href="#" id="github">Github</a></li>
-                <li><a href="#" id="twitter">Twitter</a></li>
-                <li><a href="#" id="spotify">Spotify</a></li>
+                 <li><tail_button><a href="#" id="cellphone">1-571-647-4588</a></tail_button></li>
+                 <li><tail_button><a href="#" id="email">bighelper6440@gmail.com</a></tail_button></li>
+                 <li><tail_button><a href="#" id="github">Github</a></tail_button></li>
+                 <li><tail_button><a href="#" id="twitter">Twitter</a></tail_button></li>
+                 <li><tail_button><a href="#" id="spotify">Spotify</a></tail_button></li>
             </ul>
         </nav>
     </section>
-</body>
 
+    <section class="resume">
+        <figure class="container2">
+            <img src="./assets/images/resume_background.png" width=100% height="400"; alt="Resume Background" class="resumeBackground"/>
+        </figure>
+    </section> 
+
+</body>
 </html>

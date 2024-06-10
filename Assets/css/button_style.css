@@ -5,7 +5,7 @@ button {
     color: white;
     font-weight: 700;
     /* color: #22058a; */
-    background-color: white;
+    background-color: rgb(29, 19, 111);
     /* border: 10px solid #21609c;  */
     /* border: none; */
   }
@@ -14,7 +14,7 @@ button {
   button:hover {
     /* background-color: #70d396; */
     font-size: 100%;
-    color: white;
+    color: rgb(56, 193, 125);
 
     /* font-style: oblique; */
     font-weight: 1000;

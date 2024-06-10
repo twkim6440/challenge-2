@@ -141,7 +141,7 @@ li {
 .aboutMe {
     display: flex;
     flex-wrap: wrap;
-    flex:;
+    /* flex:; */
     width: 100%;
     height: 160px;
 
@@ -191,8 +191,60 @@ li {
     color: rgb(14, 8, 47);
 }
 
+ 
 
-  
+.work {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    width: 100%;
+    height: 900px;
+    background-color: hsl(241, 46%, 50%);  
+    color: blue;
+}
+.workTitle {
+    flex: 20%;
+    padding: 30px;
+    justify-content: flex-start;
+    color: white;
+    text-align:right;
+    font-size:x-large;
+}
+.workContent {
+    flex: 80%;
+    justify-content: flex-start;
+}
+
+.korea {
+    display: flex;
+    background-color: #8acf94;    
+    width: 100%;
+    height: 300px;
+    text-align:center;
+}
+.pictureKorea {
+    flex: 50%;
+}
+.paraKorea {
+    padding-top: 0px;
+    flex: 50%;
+}
+
+.korea .paraKorea h2::after {
+    font-family: Impact;
+    font-size: xx-large;
+    content: 'Korea';
+    color: #243e8b;
+}
+.paraKoreaHeader {
+    padding-top: 50px;
+}
+.paraKoreaContents {
+    padding: 30px;
+    color: black;
+}
+
+
   /* On screens that are 600px wide or less, make the menu links stack on top of each other instead of next to each other */
   @media screen and (max-width: 1200px) {
     .aboutMe {
@@ -214,63 +266,37 @@ li {
 
     .work {
         flex;
-        width:100%;
-        height: 100%;
+        /* width:100%; */
+        /* height: 100%; */
     }
     .workTitle {
         text-align:left;
     }
     .workContent {
-        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: stretch;
+
+        /* width: 100%; */
         /* .aboutMeContentRight 2; */
     }
 
-
+    .korea {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: stretch;
+        height: 50%
+    }
+    .pictureKorea {
+        /* flex; */
+        justify-content: center;
+    }
+    .paraKorea {
+        text-align: center;
+    }
   }
 
 
-
-
-
-.work {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    height: 900px;
-    background-color: hsl(241, 46%, 50%);  
-    color: blue;
-}
-.workTitle {
-    flex: 20%;
-    padding: 30px;
-    justify-content: flex-start;
-    color: white;
-    text-align:right;
-    font-size:x-large;
-}
-.workContent {
-    flex: 80%;
-    justify-content: flex-start;
-}
-
-.korea {
-    background-color: #8acf94;    
-    width: 100%;
-    height: 300px;
-    text-align:center;
-}
-.korea h2::after {
-    font-family: Impact;
-    font-size: xx-large;
-    content: 'Korea';
-    color: #243e8b;
-}
-.workContent .paraKorea {
-    padding-top: 50px;
-}
-.korea p {
-    color: black;
-}
 
 .workSecondRow {
     width: 100%;
@@ -395,9 +421,13 @@ li {
     margin-top: 30px;
 }
 .float-left {
-        float: left;
-        margin-left: 40px;
-        margin-top: 35px;  
+    float: left;
+    margin-left: 40px;
+    margin-top: 35px;  
+}
+.float-none {
+    float:none;
+    margin-top: 35px;  
 }
 
 #css-tooltip:hover::after {

@@ -1,3 +1,23 @@
+
+* Challenge-2: Create your own webpage.
+* Author: Taewoo Kim (TK)
+* Notes: This webpage was developed by TK 
+         referencing class activities and information provided on internet,
+         including Xpert, W3 School and Mdn Web Docs.
+* Submission Date: 10 June 2024 -->
+
+<Procedures>
+  1. Started drawing a wire-frame with 'Penpot', a design tool from internet.
+  2. Divided body into 4 sections/rows: header, logo, contents and contactMe,
+              contents with 2 sections: aboutMe and work,
+              work into 3 sub sections: korea, music/calligraphy, cleopatra/bucketlist,
+  3. Implemented each section/row to meet the acceptance criteria.
+
+<Comments>
+  1. Since started from scatch, it took me a while to understand how each style works.
+  2. Flexbox properties, including 'display: flex;' were the most hard part to understand.
+  3. Thanks to the Instructor (Daler) and the TA (Sachin) for their support. 
+
 # 02 Advanced CSS: Portfolio
 
 ## Your Task

@@ -14,9 +14,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="./Assets/css/reset.css"/>
     <link rel="stylesheet" href="./Assets/css/style.css"/>
-    <!-- <link rel="stylesheet" href="./Assets/css/button_style.css"/> -->
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
+
+<!-- 1. Started drawing a wire-frame with 'Penpot', a design tool from internet.
+     2. Divided body into 4 sections/rows: header, logo, contents and contactMe,
+            contents with 2 sections: aboutMe and work,
+            work into 3 sub sections: korea, music/calligraphy, cleopatra/bucketlist,
+     3. Implemented each section/row to meet the acceptance criteria. -->
 
 <body>
     <header class="header">
@@ -38,22 +43,12 @@
                 <li><a href="#" id="aboutMePointer">About Me</a> </li>
             </ol>
         </nav>
-        <!-- <nav class="links">
-            <ul>
-                <li> <button> <a href="#aboutMe" id="aboutMe">About Me</a></button></li> 
-                <li> <button> <a href="#work" id="work">Work</a></button></li> 
-                <li> <button> <a href="#contactMe" id="contactMe">Contact Me</a></button></li> 
-                <li> <button> <a href="#" id="resume">Resume</a></button></li> 
-            </ul>
-        </nav> -->
     </header>
-    <!-- <br/> -->
     <section class="logo">
         <figure class="container">
             <img src="./Assets/images/logo_background.png" width="100%" height="150" alt="Logo Background" class="logo_background"/>
             <img src="./Assets/images/BigHelperUSA_image.png" width="230px" height="50px" alt="logo_image" class="logo_image"
                 style="position: relative; top:50px; left:50px;" />
-            <!-- src="http://via.placeholder.com/300" alt="placeholder image"/> -->
         </figure>
     </section>
     <section class="contents">
@@ -90,8 +85,6 @@
             <section class="workContent">
                 <section class="korea">
 
-
-
                     <section class="pictureKorea">
                     <!-- <section class="code-card" class="pictureKorea"> -->
                             <img src="./Assets/images/korea.png" width="380px" height="240px" class="float-none" alt="Korea" />
@@ -118,14 +111,14 @@
                             </p>
                         </section>
                     </section>
-                    <section class="calygraphy">
-                        <section class="pictureCalygraphy">
-                            <img src="./Assets/images/calygraphy.png" width="240px" height="240px" class="float-left" alt="calygraphy" />
+                    <section class="calligraphy">
+                        <section class="pictureCalligraphy">
+                            <img src="./Assets/images/calligraphy.png" width="240px" height="240px" class="float-left" alt="calygraphy" />
                         </section>
-                        <section class="paraCalygraphy">
-                            <h2 class="paraCalygraphyHeader"></h2> <br>
-                            <p class="paraCalygraphyContents">
-                                Things about Calygraphy.<br><br>
+                        <section class="paraCalligraphy">
+                            <h2 class="paraCalligraphyHeader"></h2> <br>
+                            <p class="paraCalligraphyContents">
+                                Things about Calligraphy.<br><br>
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis dicta impedit blanditiis cupiditate accusamus quae praesentium beatae laborum architecto cum pariatur reiciendis, esse corrupti facere minus. Esse sequi in atque.
                             </p>
                         </section>
@@ -161,47 +154,24 @@
                 </section>
             </section>  
         </section>
-        <section class="contactMe" id="contactMePointer">
-            <section class="contactMeAside">
-                <h2>
-                    Contact Me
-                </h2>
-            </section>
-            <nav class="contactMeList">
-                 <ul class="contactMeList">
-                    <a href="https://open.spotify.com/" id="spotify">Spotify</a> 
-                    <a href="https://x.com/i/flow/login" id="twitter">Twitter</a> 
-                    <a href="https://github.com" id="github">Github</a> 
-                    <a href="https://mail.google.com/mail/u/0/#inbox" id="email">bighelper6440@gmail.com</a> 
-                    <a href="#" id="cellphone">1-571-647-4588</a> 
-                </ul> 
-            </nav>
-        </section>
     </section>
 
-
-    <nav class="topnav">
-        <!-- <ul> -->
-        <!-- </ul> -->
-    </nav>
-
-<!-- 
-
-    <section class="resume" id="resumePointer">
-        <figure class="container2">
-            <img src="./assets/images/resume_background.png" width=100% height="400"; alt="Resume Background" class="resumeBackground"/>
-        </figure>
-    </section> 
-    <section class="resume">
-        <figure class="container2">
-            <img src="./assets/images/resume_background.png" width=100% height="400"; alt="Resume Background" class="resumeBackground"/>
-        </figure>
-    </section> 
-    <section class="resume">
-        <figure class="container2">
-            <img src="./assets/images/resume_background.png" width=100% height="400"; alt="Resume Background" class="resumeBackground"/>
-        </figure>
-    </section>  -->
+    <section class="contactMe" id="contactMePointer">
+        <section class="contactMeAside">
+            <h2>
+                Contact Me
+            </h2>
+        </section>
+        <nav class="contactMeList">
+                <ul class="contactMeList">
+                <a href="https://open.spotify.com/" id="spotify">Spotify</a> 
+                <a href="https://x.com/i/flow/login" id="twitter">Twitter</a> 
+                <a href="https://github.com" id="github">Github</a> 
+                <a href="https://mail.google.com/mail/u/0/#inbox" id="email">bighelper6440@gmail.com</a> 
+                <a href="#" id="cellphone">1-571-647-4588</a> 
+            </ul> 
+        </nav>
+    </section>
 
 </body>
 </html>

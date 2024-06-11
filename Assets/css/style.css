@@ -270,7 +270,7 @@ li {
     text-align:center;
 }
 .pictureKorea {
-    padding-left: 5px;
+    padding-left: 50px;
     flex: 30%;
 }
 .paraKorea {
@@ -333,32 +333,32 @@ li {
     color: black;
 }
 
-.calygraphy {
+.calligraphy {
     flex: 50%;
     /* width: 50%; */
     text-align:center;
     background-color: #7979f3;
 }
-.pictureCalygraphy {
+.pictureCalligraphy {
     padding-left: 5px;
     /* flex: 30%; */
 }
-.paraCalygraphy {
+.paraCalligraphy {
     padding-left: 40px;
 }
-.paraCalygraphyHeader::after {
+.paraCalligraphyHeader::after {
     font-family: Impact;
     font-size: xx-large;
-    content: 'Calygraphy';
+    content: 'Calligraphy';
     color: #243e8b;
 }
-.paraCalygraphyHeader {
+.paraCalligraphyHeader {
     padding-top: 60px;
 }
-.paraCalygraphyContents {
+.paraCalligraphyContents {
     padding-top: 0px;
 }
-/* .calygraphy p {
+/* .calligraphy p {
     color: black;
     padding: 30px;
     padding-left: 30px;
@@ -368,7 +368,7 @@ li {
 
 .workThirdRow {
     width: 100%;
-    /* height: 300px; */
+    height: 300px;
     display: flex;
     background-color: #d79991;
 }
@@ -429,24 +429,27 @@ li {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    height: 100px;
+    height: 150px;
+    padding-top: 0px;
+    /* margin-top: 250px; */
     color: blue;
-    background-color: #4ec672;
+    background-color: #377148;
     /* margin-top: 25px; */
 }
 .contactMeAside {
     flex: 20%;
     padding:40px;
     padding-left: 50px;
+    height: 150px;
     justify-content:center;
-    background-color: #2a2fcbdc;
+    background-color: #292ed3dc;
     color:#e5eee6;
     text-align:center;
     font-size:x-large;
 }
 .contactMeList {
     flex: 80%;
-    padding-top: 25px;
+    padding-top: 20px;
     padding-right: 40px;
     overflow: hidden;
     /* background-color: #3d9373; */
@@ -462,7 +465,7 @@ li {
   .contactMeList a {
     float: right;
     display: block;
-    color: #11063e;
+    color: #dbd8e6;
     align-content:center;
     /* text-align: center; */
     padding: 10px 25px;
@@ -473,7 +476,7 @@ li {
   /* Change color on hover */
   .contactMeList a:hover {
     background-color: transparent;
-    color: rgb(165, 73, 37);
+    color: rgb(224, 194, 150);
   }
   
 
@@ -514,11 +517,11 @@ li {
         /* overflow: scroll; */
         /* height: auto; */
         /* width:100%; */
-        /* height: 100%; */
+        /* height: 500%; */
     }
     .workTitle {
         flex: 20%;
-        /* height: auto; */
+        /* height: 1200px; */
         text-align:center;
     }
     .workContent {
@@ -540,6 +543,7 @@ li {
     .pictureKorea {
         /* flex; */
         justify-content: center;
+        padding-left: 1px;
     }
     .paraKorea {
         flex: 100%;
@@ -576,23 +580,23 @@ li {
         padding: 10px;
     }
 
-    .calygraphy {
+    .calligraphy {
         flex: 50%;
         display: flex;
         text-align: center;
     }
-    .pictureCalygraphy{
+    .pictureCalligraphy{
         flex: 50%;
         padding: 1px;
     }
-    .paraCalygraphy{
+    .paraCalligraphy{
         flex: 50%;
         padding: 1px;
     }
-    .paraCalygraphyHeader {
+    .paraCalligraphyHeader {
         padding: 30px;
     }
-    .paraCalygraphyContents {
+    .paraCalligraphyContents {
         padding: 10px;
     }
 
@@ -629,6 +633,7 @@ li {
     .bucketlist {
         /* flex: 50%; */
         width: 100%;
+        /* height: 40px; */
         display: flex;
         text-align: center;
     }
@@ -646,13 +651,21 @@ li {
     }
     .paraBucketlistContents {
         padding: 10px;
+        padding-bottom: 80px;
     }
 
-
-/*     
     .contactMe {
         flex;
-        height: 40%;
+        /* height: 100px; */
+        /* padding-top: 300px; */
+    }
+    .contactMeAside {
+        text-align:center;
+        padding-top: 100px;
+
+    }
+    .contactMeList {
+        color: black;
     }
 
     .bottomnav {
@@ -662,7 +675,7 @@ li {
         float: none;
         width: 100%;
     }
- */
+
 
 
   }

@@ -375,6 +375,7 @@ li {
 
 .cleopatra {
     width: 50%;
+    padding-bottom: 50px;
     text-align:center;
 }
 .pictureCleopatra {
@@ -431,6 +432,7 @@ li {
     height: 100px;
     color: blue;
     background-color: #4ec672;
+    /* margin-top: 25px; */
 }
 .contactMeAside {
     flex: 20%;
@@ -509,6 +511,7 @@ li {
 
     .work {
         display: flex;
+        /* overflow: scroll; */
         /* height: auto; */
         /* width:100%; */
         /* height: 100%; */

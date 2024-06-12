@@ -299,13 +299,13 @@ li {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+    /* height: 300px; */
     background-color: #8d9bf8;
 }
 
 .music {
     flex: 50%;
     width: 100%;
-    padding-bottom: 30px;
     /* height: 500px; */
     text-align:center;
     /* margin-top: 0px; */
@@ -368,14 +368,14 @@ li {
 
 .workThirdRow {
     width: 100%;
-    /* height: 785px; */
+    /* height: 300px; */
     display: flex;
     background-color: #d79991;
 }
 
 .cleopatra {
     width: 50%;
-    padding-bottom: 30px;
+    padding-bottom: 50px;
     text-align:center;
 }
 .pictureCleopatra {
@@ -516,9 +516,9 @@ li {
         display: flex;
         /* min-height: 150vh; */
         /* overflow: scroll; */
-        /* height: auto; */
-        /* width:100%; */
         height: auto;
+        /* width:100%; */
+        /* height: 500%; */
     }
     .workTitle {
         flex: 20%;
@@ -539,7 +539,7 @@ li {
         display: flex;
         flex-wrap: wrap;
         align-items: stretch;
-        height: auto
+        height: auto;
     }
     .pictureKorea {
         /* flex; */
@@ -559,17 +559,16 @@ li {
         display: flex;
         flex-wrap: wrap;
         align-items: stretch;
-        height: 34%;
+        height: 40%;
     }
     .music {
         flex: 50%;
         display: flex;
         text-align: center;
-        padding-bottom: 1px;
     }
     .pictureMusic {
         flex: 50%;
-        padding: 10px;
+        padding: 1px;
     }
     .paraMusic {
         flex: 50%;
@@ -585,7 +584,6 @@ li {
     .calligraphy {
         flex: 50%;
         display: flex;
-        padding-bottom: 5px;
         text-align: center;
     }
     .pictureCalligraphy{
@@ -608,9 +606,8 @@ li {
         display: flex;
         flex-wrap: wrap;
         align-items: stretch;
-        height: 41%;
+        height: 40%;
     }
-
     .cleopatra {
         /* flex: 50%; */
         /* height: 50%; */
@@ -635,11 +632,13 @@ li {
     }
 
     .bucketlist {
+        /* flex: 50%; */
         width: 100%;
+        /* height: 40px; */
         margin-bottom: 165px;
         display: flex;
         text-align: center;
-        padding-bottom: 35px;
+        padding-bottom: 55px;
     }
     .pictureBucketlist{
         flex: 50%;

@@ -17,6 +17,8 @@
   1. Since started from scatch, it took me a while to understand how each style works.
   2. Flexbox properties, including 'display: flex;' were the most hard part to understand.
   3. Thanks to the Instructor (Daler) and the TA (Sachin) for their support. 
+  4. Last bug fixed with the help from TA. 
+  
 
 # 02 Advanced CSS: Portfolio
 
